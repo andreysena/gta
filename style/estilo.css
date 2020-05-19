@@ -1,0 +1,348 @@
+﻿.cabecalho {
+	height: 100px;
+	background-color: darkgreen;
+	color: white;
+}
+
+/*Referente ao logo no canto superior esquerdo do site. Essa imagem terá a função de 
+voltar a página home do site*/
+.logo {
+	float: left;
+	height: 100px;  
+	width: 110px;
+}
+
+/*Fundo do site, corpo geral do site*/
+body {
+	background-color: white;
+}
+
+/*Configurações para o nome no topo do site*/
+.titulo {
+	text-align: center;
+	padding-top: 25px;
+	font-size: 35px;
+	font-weight: bold;
+	font-family: verdana;
+	margin-right: 7.5%;
+}
+
+/*Configurações referentes a home (quando clicamos no ícone à esquerda) do site*/
+.contindexone {
+	text-align: center;
+	font-family: verdana;
+	font-size: 20px;
+	font-weight: bold;
+	margin-right: 410px;
+}
+
+/*Configurações referentes a home (quando clicamos no ícone à esquerda) do site*/
+.contindextwo {
+	text-align: center;
+	font-family: verdana;
+	font-size: 20px;
+	font-weight: bold;
+	margin-right: 200px;
+}
+
+/*Configurações referentes a home (quando clicamos no ícone à esquerda) do site*/
+.contindexthree {
+	text-align: center;
+	font-family: verdana;
+	font-size: 20px;
+	font-weight: bold;
+	margin-right: 709.9px;
+}
+
+/*Configurações para a imagem de indicação (ak47 na home)*/
+.akindicaone {
+	height: 40px;
+	width: 80px;
+	float: left;
+	padding: 5px;
+}
+
+/*Configurações para a SEGUNDA imagem de indicação (ak47 na home)*/
+.akindicatwo {
+	height: 40px;
+	width: 80px;
+	float: left;
+	padding: 5px;
+}
+
+/*Configurações para a TERCEIRA imagem de indicação (ak47 na home)*/
+.akindicathree {
+	height: 40px;
+	width: 80px;
+	float: left;
+	padding: 5px;
+}
+
+/*Imagem na home do site*/
+.imghome {
+	height: 400px;
+	width: 800px;
+	margin-left: 105px;
+}
+
+/*DIV principal do site*/
+.corpo {
+	background-color: gainsboro;
+	height: 1700px;
+	width: 1000px;
+	margin: 0 auto;
+	display: table;
+}
+
+ul {
+	background-color: darkgreen;
+}
+
+ul li {
+	display: inline-block;
+	font-size: 15.5px;
+	font-family: Verdana;
+	padding: 30px 60px;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*Configurações para o conteúdo da lista que funciona como "menu de navegação"*/
+.contista {
+	margin-left: 3%;
+	font-family: verdana;
+	font-size: 17px;
+	font-weight: bold;
+	float: center;
+}
+
+/*Retângulo verde com o conteúdo dos personagens
+Aqui em específico, quero que a primeira DIV fique colada com o "menu de navegação"*/
+.persocjfirst {
+	background-color: darkgreen;
+	height: 300px;
+	width: 1000px;
+	margin-top: -16px;
+}
+
+/*Retângulo verde com o conteúdo dos personagens*/
+.persocj {
+	background-color: darkgreen;
+	height: 300px;
+	width: 1000px;
+}
+
+/*Configurações para as imagens de cada personagem dentro da DIV*/
+.cj {
+	float: left;
+	margin-right: 10px;
+}
+
+/*Class com as configurações dos textos dos personagens*/
+.contperso {
+	padding-top: 10px;
+	padding-right: 10px;
+	font-family: verdana;
+	font-size: 11pt;
+	text-align: justify;
+	color: gainsboro;
+	font-weight: bold;
+}
+
+/*Codificação referente ao conteúdo da aba MISSÕES do menu de navegação.*/
+.contmissions {
+	padding-top: 10px;
+	padding-right: 10px;
+	font-family: verdana;
+	font-size: 11pt;
+	text-align: justify;
+	color: gainsboro;
+	font-weight: bold;
+}
+
+/*Referente a DIV central de conteúdo da aba MISSÕES do menu de navegação*/
+.corpomissions {
+	background-color: darkgreen;
+	height: 1700px;
+	width: 1000px;
+	margin: 0 auto;
+	height: 2500px;
+}
+
+/*Referente ao título das missões (conteúdo).*/
+.titlemissions {
+	font-family: verdana;
+	font-size: 16pt;
+	text-align: left;
+	font-weight: bold;
+	color: gainsboro;
+}
+
+/*Referente ao corpo da página de compras*/
+.corpopremios{
+	background-color: darkgreen;
+	width: 1000px;
+	margin: 0 auto;
+	height: 830px;
+}
+
+/*Referente ao título das prêmios (conteúdo).*/
+.titlepremios{
+	background-color: darkgreen;
+	height: 45px;
+	font-family: verdana;
+	font-size: 16pt;
+	text-align: left;
+	font-weight: bold;
+	color: gainsboro;
+}
+
+/*Propriedades referentes a linha horizontal na página de prêmios*/
+.hr{
+	background-color: white;
+}
+
+/*Referente a div esquerda na página de prêmios.*/
+.premdivesquer{
+	background: darkgreen;
+	margin: 0 auto;
+	float: left;
+}
+
+/*Referente a div da direita na página de prêmios.*/
+.premdivdirei{
+	background: darkgreen;
+	margin: 0 auto;
+	height: 600px;
+	
+}
+
+/*Referente ao título principal da página de prêmios*/
+.titleanopre{
+	background-color: darkgreen;
+	font-family: verdana;
+	font-size: 14pt;
+	text-align: center;
+	font-weight: bold;
+	color: gainsboro;
+}
+
+/*Referente ao ícone de troféu da página de prêmios*/
+.trofeu{
+	height: 15px;
+	width: 20px;
+	float: left;
+	padding: 10px;
+}
+
+/*Referente ao texto da página de prêmios (conteúdo)*/
+.contpremio{
+	padding-top: 10px;
+	padding-right: 10px;
+	font-family: verdana;
+	font-size: 11pt;
+	text-align: justify;
+	color: gainsboro;
+	font-weight: bold;
+}
+
+/*Referente a foto do Samuel Jackson (página prêmios)*/
+.samuelpic{
+	padding: 10px;
+}
+
+/*Referente ao corpo da página de compras*/
+.corpocompras{
+	background-color: darkgreen;
+	height: 2000px;
+	width: 1000px;
+	margin: 0 auto;
+	height: 2000px;
+}
+
+/*Referente ao título principal da página de compras*/
+.titlecomprar{
+	background-color: darkgreen;
+	font-family: verdana;
+	font-size: 16pt;
+	text-align: left;
+	font-weight: bold;
+	color: gainsboro;
+}
+
+/*Referente ao pequeno texto de introdução da página de compras*/
+.introcomprar{
+	background-color: darkgreen;
+	margin-bottom: 10px;
+	padding: 10px;
+	color: gainsboro; 
+	font-family: verdana;
+	font-size: 11pt;
+	text-align: justify;
+}
+
+.divjogoesquer{
+	background: darkgreen;
+	margin: 0 auto;
+	float: left;
+}
+
+.divjogodirei{
+	background: darkgreen;
+	margin: 0 auto;
+}
+
+/*Referente ao título da plataforma*/
+.titlegame{
+	font-family: verdana;
+	font-size: 16pt;
+	text-align: left;
+	font-weight: bold;
+	color: gainsboro;
+}
+
+/*Referente as propriedades de imagem dos jogos*/
+.imggame{
+	width: 350px; 
+	height: 350px;
+	margin-left: 50px;
+	padding: 10px;
+	
+}
+
+/*Codificação para od estaque da imagem ao passar o mouse*/
+.imggame:hover{
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+/*Referente ao título do local de compra do game*/
+.discrgame{
+	color: gainsboro; 
+	font-family: verdana;
+	font-size: 14pt;
+	text-align: justify;
+
+}
+
+
+/*Codificação referente ao rodapé*/
+.rodape {
+	height: 100px;
+	background-color: darkgreen;
+	color: white;
+}
+
+/*Codificação referente ao texto ao texto do rodapé*/
+.textrodape {
+	text-align: center;
+	font-size: 13px;
+	font-weight: bold;
+	font-family: verdana;
+	padding-top: 25px;
+}
+
+
